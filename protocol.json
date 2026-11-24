@@ -1,0 +1,39 @@
+{
+  "protocol": "HSP-ICE-1.0",
+  "status": "pilot",
+  "product": "ice cream and frozen desserts",
+  "assessment": "human sensory evaluation",
+  "scale": {
+    "minimum": 0,
+    "maximum": 10
+  },
+  "sensory_parameters": {
+    "sweetness": ["absent", "moderate", "very strong"],
+    "creaminess": ["none", "medium", "very creamy"],
+    "iciness": ["none", "noticeable", "dominant"],
+    "hardness": ["very soft", "medium", "very hard"],
+    "smoothness": ["grainy", "medium", "velvety"],
+    "aroma_intensity": ["absent", "moderate", "very strong"],
+    "overall_liking": ["very unpleasant", "neutral", "very pleasant"]
+  },
+  "scale_anchors": [0, 5, 10],
+  "physical_measurements": [
+    "serving_temperature_c",
+    "ambient_temperature_c",
+    "sample_mass_g",
+    "first_drip_seconds",
+    "melted_mass_after_10_minutes_g",
+    "overrun_percent"
+  ],
+  "documentation": {
+    "photos": true,
+    "json_report": true,
+    "language": "English",
+    "missing_values": null
+  },
+  "limitations": {
+    "accredited_laboratory": false,
+    "assessors": 1,
+    "validated_protocol": false
+  }
+}
